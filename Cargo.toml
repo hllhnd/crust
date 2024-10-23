@@ -1,0 +1,14 @@
+[package]
+publish = false
+name    = "crust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = { version = "0.2", default-features = false }
+
+[lints.rust]
+internal_features = "allow"
+
+[lints.clippy]
+missing_safety_doc = "allow"
